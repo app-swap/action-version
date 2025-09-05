@@ -2,7 +2,7 @@ name: "AppSwap Version"
 description: "Calculate and write a version to package.json"
 author: "AppSwap Team"
 runs:
-  using: "node22"
+  using: "node24"
   steps:
     - run: npx @appswap/cli version
       shell: bash
