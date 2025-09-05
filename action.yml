@@ -5,3 +5,4 @@ runs:
   using: "node22"
   steps:
     - run: npx @appswap/cli version
+      shell: bash
